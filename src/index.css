@@ -1,0 +1,52 @@
+html,
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color-scheme: dark;
+}
+
+#root {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+/* Netflix-style fade-in animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 1.2s ease-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
