@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import ProjectRow from "./components/ProjectRow";
 import ExperienceRow from "./components/ExperienceRow";
