@@ -12,6 +12,7 @@ function Skills() {
         "HTML/CSS",
         "Scala",
         "MongoDB",
+        "React/TailwindCSS",
       ],
     },
     {
@@ -20,6 +21,7 @@ function Skills() {
         "TensorFlow",
         "PyTorch",
         "scikit-learn",
+        "OpenAI",
         "Keras",
         "OpenCV",
         "AWS",
@@ -36,6 +38,7 @@ function Skills() {
         "Eclipse",
         "Jupyter Notebook",
         "Google Colab",
+        "Vercel",
       ],
     },
     {
