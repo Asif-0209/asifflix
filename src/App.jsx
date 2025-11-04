@@ -86,7 +86,7 @@ function App() {
               <Skills />
 
               <footer className="text-center py-10 text-gray-400 border-t border-gray-800 bg-black mt-10">
-                <p>© 2025 Asif • Built with ❤️ using React + TailwindCSS</p>
+                <p>©Asif P • AI/ML Engineer Portfolio • React × Tailwind × OpenAI</p>
               </footer>
             </>
           }
