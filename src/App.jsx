@@ -73,9 +73,18 @@ function App() {
           element={
             <>
               <Hero />
-              <ProjectRow title="🎬 My Featured Projects" projects={myProjects} />
+
+              {/* 🎬 Featured Projects Section with ID for smooth scroll */}
+              <section id="projects" className="scroll-mt-24">
+                <ProjectRow
+                  title="🎬 My Featured Projects"
+                  projects={myProjects}
+                />
+              </section>
+
               <ExperienceRow />
               <Skills />
+
               <footer className="text-center py-10 text-gray-400 border-t border-gray-800 bg-black mt-10">
                 <p>© 2025 Asif • Built with ❤️ using React + TailwindCSS</p>
               </footer>
@@ -84,7 +93,10 @@ function App() {
         />
 
         {/* 🎥 Projects Page */}
-        <Route path="/projects" element={<ProjectsPage projects={myProjects} />} />
+        <Route
+          path="/projects"
+          element={<ProjectsPage projects={myProjects} />}
+        />
 
         {/* 💼 Experience Page */}
         <Route path="/experience" element={<ExperiencePage />} />
