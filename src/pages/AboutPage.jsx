@@ -17,7 +17,7 @@ function AboutPage() {
         {/* Profile Image */}
         <div className="w-60 h-60 md:w-72 md:h-72 rounded-xl overflow-hidden shadow-lg border-4 border-red-600 hover:scale-105 transform transition duration-300">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQGPZ1aRA8hkkg/profile-displayphoto-shrink_800_800/B4DZWBzsowG4Ac-/0/1741639568789?e=1762387200&v=beta&t=N5eI8w8Cn2Gwfyj5dJdtfp2xGY9M0waclvEiRBZ2irc"
+            src="https://media.licdn.com/dms/image/v2/D5603AQFQxwu84nZEcg/profile-displayphoto-crop_800_800/B56ZpRSYtzIsAQ-/0/1762300366004?e=1763596800&v=beta&t=CnTt4A-MAiUaqWewMRxk6cvjcpvMBdfmznLzLy7P0xw"
             alt="Asif"
             className="w-full h-full object-cover"
           />
