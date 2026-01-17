@@ -61,7 +61,7 @@ const myProjects = [
   title: "Schema-Constrained Medical Document Extraction Agent",
   tech: "GenAI · AWS · LangChain · Amazon Bedrock · LlamaCloud",
   image:
-    "https://miro.medium.com/v2/resize:fit:1400/1*E8pE4YcJtq0kQp6qF8QF6g.png", // safe placeholder (can change later)
+    "https://cdn.prod.website-files.com/61e7d259b7746e3f63f0b6be/635297215329779e911ed18f_cv%20parser%20eden%20ai%20.svg", // safe placeholder (can change later)
   link: "https://github.com/Asif-0209/medical-pdf-to-schema",
   steps: [
     "Built an end-to-end GenAI pipeline to extract structured medical data from PDFs into strict, validated JSON using Pydantic and JSON Schema.",
