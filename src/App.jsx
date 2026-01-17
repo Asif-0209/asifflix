@@ -111,6 +111,34 @@ const myProjects = [
     "Documentation"
   ],
 },
+  {
+  title: "AI Resume Analyzer & Job Matching Assistant",
+  tech: "GenAI · LangChain · LlamaCloud · Embeddings · Vector Search",
+  image:
+    "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/da42d8082a500c505595b28abce42c779d69e10a/36946bf109a859852b967a73ad2f44224788c79d",
+  link: "https://github.com/Asif-0209", // replace with repo if public
+  steps: [
+    "Built a GenAI-powered system to parse resumes and job descriptions into structured candidate profiles using schema-constrained extraction.",
+    "Orchestrated the pipeline using LangChain to ensure reliable conversion from unstructured text to validated JSON outputs.",
+    "Integrated LlamaCloud API for layout-aware resume parsing and section segmentation (skills, experience, education).",
+    "Implemented embedding-based similarity matching between resumes and job descriptions to compute role-fit scores and identify missing skills.",
+    "Designed validation and normalization logic to maintain consistent skill taxonomies and role mappings across candidates.",
+    "Exposed the system via REST APIs for scalable batch resume analysis and job-matching workflows."
+  ],
+  skills: [
+    "GenAI",
+    "LangChain",
+    "LlamaCloud",
+    "Embeddings",
+    "Vector Similarity Search",
+    "Schema-Constrained Extraction",
+    "JSON Schema",
+    "REST APIs",
+    "RAG Pipelines",
+    "Document AI"
+  ],
+},
+
 
 
 ];
