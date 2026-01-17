@@ -87,6 +87,31 @@ const myProjects = [
     "RAG Pipelines",
   ],
 },
+  {
+  title: "smart-preprocess (PyPI) — Open-Source Data Preprocessing Toolkit",
+  tech: "Python · Pandas · NumPy · scikit-learn · Feature Engineering · PyPI",
+  image: "https://media.licdn.com/dms/image/v2/D5622AQGeRnRFffhY4Q/feedshare-shrink_2048_1536/B56Zpv8pT1H8Aw-/0/1762814761228?e=1770249600&v=beta&t=i3uP7fFTkOi4Y2rMDeS9q3w91pqVk6Ecx8yribmyshk",
+  link: "https://pypi.org/project/smart-preprocess-asif/", 
+  steps: [
+    "Designed a reusable preprocessing API to convert raw datasets into model-ready features with minimal code.",
+    "Implemented missing-value handling, encoding, scaling, outlier treatment, and feature engineering utilities.",
+    "Ensured pipeline compatibility for ML workflows (clean → transform → train) with consistent outputs.",
+    "Packaged and published releases to PyPI with versioning, documentation, and usage examples.",
+    "Optimized developer UX: sensible defaults + configurable options for different datasets and tasks."
+  ],
+  skills: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "Feature Engineering",
+    "Data Preprocessing",
+    "Open Source",
+    "PyPI Packaging",
+    "Documentation"
+  ],
+},
+
 
 ];
 
