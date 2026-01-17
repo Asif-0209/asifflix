@@ -57,6 +57,37 @@ const myProjects = [
     ],
     skills: ["React", "TailwindCSS", "JavaScript", "Vite"],
   },
+  {
+  title: "Schema-Constrained Medical Document Extraction Agent",
+  tech: "GenAI · AWS · LangChain · Amazon Bedrock · LlamaCloud",
+  image:
+    "https://miro.medium.com/v2/resize:fit:1400/1*E8pE4YcJtq0kQp6qF8QF6g.png", // safe placeholder (can change later)
+  link: "https://github.com/Asif-0209/medical-pdf-to-schema",
+  steps: [
+    "Built an end-to-end GenAI pipeline to extract structured medical data from PDFs into strict, validated JSON using Pydantic and JSON Schema.",
+    "Integrated Amazon Bedrock for LLM inference and LlamaCloud for layout-aware document parsing (tables + narrative text).",
+    "Implemented cost-optimized model routing with selective escalation (light analysis → high-accuracy extraction).",
+    "Designed deterministic validation and auto-repair loops (type checks, unit/date normalization, retry-only-invalid-fields).",
+    "Orchestrated serverless batch processing using AWS Lambda, API Gateway, and S3 to generate SQL/CSV-ready outputs.",
+    "Produced RAG-ready structured data with page-level provenance (source page + supporting snippet).",
+  ],
+  skills: [
+    "GenAI",
+    "Schema-Constrained LLMs",
+    "Amazon Bedrock",
+    "LangChain",
+    "LlamaCloud",
+    "AWS Lambda",
+    "API Gateway",
+    "S3",
+    "Pydantic",
+    "JSON Schema",
+    "Cost Optimization",
+    "Document AI",
+    "RAG Pipelines",
+  ],
+},
+
 ];
 
 function App() {
