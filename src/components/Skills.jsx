@@ -3,52 +3,60 @@ import React from "react";
 function Skills() {
   const skills = [
     {
-      category: "Languages",
+      category: "Programming & Databases",
       items: [
-        "Python (Advanced)",
-        "Java",
-        "MySQL",
-        "C",
-        "HTML/CSS",
-        "Scala",
-        "MongoDB",
-        "React/TailwindCSS",
+        "Python (Advanced), C",
+        "SQL / MySQL, MongoDB",
+        "Data modeling, query optimization, schema design",
       ],
     },
     {
-      category: "Frameworks & Technologies",
+      category: "AI & Machine Learning",
       items: [
-        "TensorFlow",
-        "PyTorch",
-        "scikit-learn",
-        "OpenAI",
-        "Keras",
-        "OpenCV",
-        "AWS",
-        "Google Cloud Platform (GCP)",
-        "Hadoop",
-        "Apache Spark",
+        "TensorFlow, PyTorch, Scikit-learn, XGBoost",
+        "Deep Learning: CNNs, LSTMs, Transformers",
+        "Model training, evaluation, hyperparameter tuning, model optimization",
       ],
     },
     {
-      category: "Developer Tools",
+      category: "LLMs, GenAI & RAG",
       items: [
-        "Git",
-        "VS Code",
-        "Eclipse",
-        "Jupyter Notebook",
-        "Google Colab",
-        "Vercel",
+        "Hugging Face, OpenAI / Bedrock-style APIs",
+        "RAG pipelines, embeddings, vector databases (FAISS)",
+        "Prompt engineering, LLM fine-tuning, schema-constrained extraction",
+        "Cost-optimized inference, context management",
       ],
     },
     {
-      category: "Soft Skills",
+      category: "Data Science & Analytics",
       items: [
-        "Teamwork",
-        "Leadership",
-        "Decision-Making",
-        "Problem-Solving",
-        "Adaptability",
+        "Pandas, NumPy, SciPy",
+        "Visualization: Matplotlib, Seaborn",
+        "Statistical modeling, exploratory data analysis (EDA)",
+      ],
+    },
+    {
+      category: "Cloud, MLOps & Deployment",
+      items: [
+        "AWS, Google Cloud Platform (GCP)",
+        "Docker, Kubernetes, CI/CD pipelines",
+        "FastAPI, REST API development",
+        "Model deployment, monitoring, scalable inference",
+      ],
+    },
+    {
+      category: "Big Data & Distributed Systems",
+      items: [
+        "Apache Spark, Hadoop",
+        "Distributed data processing pipelines",
+        "Feature engineering at scale",
+      ],
+    },
+    {
+      category: "Developer & Productivity Tools",
+      items: [
+        "Git, Jupyter Notebook, VS Code",
+        "CLI tools, debugging, reproducible workflows",
       ],
     },
   ];
@@ -56,11 +64,11 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="bg-black text-white px-10 py-16 border-t border-gray-800"
+      className="bg-black text-white px-6 md:px-10 py-16 border-t border-gray-800"
     >
       <h2 className="text-3xl font-semibold mb-8">🧠 Technical Skills</h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 gap-8">
         {skills.map((skillGroup, index) => (
           <div
             key={index}
@@ -69,7 +77,8 @@ function Skills() {
             <h3 className="text-xl font-bold text-red-500 mb-3">
               {skillGroup.category}
             </h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-1">
+
+            <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
               {skillGroup.items.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
@@ -82,3 +91,4 @@ function Skills() {
 }
 
 export default Skills;
+
