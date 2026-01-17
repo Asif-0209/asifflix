@@ -59,6 +59,18 @@ function Skills() {
         "CLI tools, debugging, reproducible workflows",
       ],
     },
+    {
+      category: "Soft Skills",
+      items: [
+        "Leadership",
+        "critical thinking",
+        "strong communication",
+        "problem-solving",
+        "adaptability",
+        "collaboration",
+        "Team Work",
+      ],
+    },
   ];
 
   return (
