@@ -73,10 +73,14 @@ function ExperiencePage() {
   ];
 
   const certifications = [
-    "AI-900: Microsoft Azure AI Fundamentals Certification",
+    "PyPI Open-Source Package Author",
+    "AWS Certified AI Practitioner" ,
+    "AWS Certified Machine Learning Engineer - Associate",
+    "IEEE InC4 2024 Publication",
     "Google Cloud Computing Foundations: 12 Badges",
     "Served as President of the College House for two consecutive years",
-    "Merit certifications in Machine Learning, Data Structures & Algorithms, and Python from Udemy",
+    "Merit certifications in Machine Learning, Data Structures & Algorithms, and Python from Udemy"
+    ,
   ];
 
   return (
