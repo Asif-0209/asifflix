@@ -5,8 +5,8 @@ function EducationPage() {
     {
       degree: "Master’s in Computer Science",
       school: "Northern Arizona University, United States",
-      period: "2024 – Present",
-      cgpa: "CGPA: 3.89 / 4.0",
+      period: "2024 – 2025",
+      cgpa: "CGPA: 3.91 / 4.0",
     },
     {
       degree: "B.Tech in Computer Science",
