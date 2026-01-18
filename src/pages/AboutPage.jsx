@@ -17,7 +17,7 @@ function AboutPage() {
         {/* Profile Image */}
         <div className="w-60 h-60 md:w-72 md:h-72 rounded-xl overflow-hidden shadow-lg border-4 border-red-600 hover:scale-105 transform transition duration-300">
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQFQxwu84nZEcg/profile-displayphoto-crop_800_800/B56ZpRSYtzIsAQ-/0/1762300366004?e=1763596800&v=beta&t=CnTt4A-MAiUaqWewMRxk6cvjcpvMBdfmznLzLy7P0xw"
+            src="https://avatars.githubusercontent.com/u/126372865?v=4"
             alt="Asif"
             className="w-full h-full object-cover"
           />
@@ -72,7 +72,7 @@ function AboutPage() {
               <FaGithub />
             </a>
             <a
-              href="https://media.licdn.com/dms/image/v2/D5635AQHB5uAPTiytCA/profile-framedphoto-shrink_800_800/B56Zpg7IyDIYAg-/0/1762562706830?e=1769299200&v=beta&t=g_fFA2xWZ5ckbfOLF0mcSamDqPgkldN8xWIiP_cPA68"
+              href="https://www.linkedin.com/in/asif-p-056530232/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-red-500 transition"
