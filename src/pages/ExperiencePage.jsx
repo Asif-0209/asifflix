@@ -6,12 +6,18 @@ function ExperiencePage() {
       title: "AI/ML Engineer",
       company: "Northern Arizona University",
       location: "Arizona, United States",
-      period: "Oct 2024 – Present",
+      period: "Oct 2024 – Dec 2025",
       description: [
-        "Designed and implemented deep learning and predictive analytics models using PyTorch, OpenCV, and NumPy to analyze institutional datasets and forecast staff performance metrics.",
-        "Developed and automated end-to-end AI pipelines integrating university databases for continuous learning and model retraining, improving forecasting precision by 25%.",
-        "Collaborated with data engineering teams to build secure data access layers and deploy AI microservices on cloud infrastructure for real-time inference.",
-        "Generated actionable insights that supported administrative decision-making, optimizing departmental efficiency by 35%.",
+        "Designed and deployed end-to-end machine learning pipelines for campus research datasets using Python, Scikit-learn, and TensorFlow, improving model accuracy by
+         up to 30% across multiple prediction tasks.",
+        "Built Retrieval-Augmented Generation (RAG) systems using Hugging Face models and FAISS vector databases to enable semantic search and document-based question
+         answering for academic workflows.",
+        "Developed automated data preprocessing and feature engineering pipelines with Pandas, NumPy, and SQL, reducing data preparation time by 40% and improving dataset
+        consistency.",
+        " Implemented and containerized FastAPI-based ML inference services using Docker, enabling scalable model deployment across AWS and GCP environments.",
+        "Integrated LLM-powered analytics and AI-driven dashboards with existing campus systems, supporting data-driven decision-making for 200+ faculty and administrators.",
+        "Collaborated with faculty researchers and IT teams to iterate on model design, evaluation metrics, and deployment strategies, ensuring reproducibility and production
+         readiness.",
       ],
       skills: [
         "PyTorch",
@@ -25,12 +31,15 @@ function ExperiencePage() {
       title: "Teaching Assistant — Advanced Python",
       company: "Northern Arizona University",
       location: "Arizona, United States",
-      period: "Dec 2024 – Present",
+      period: "Aug 2024 – Dec 2025",
       description: [
-        "Supported graduate, thesis, and undergraduate students in understanding Python programming, algorithm optimization, and data structures.",
-        "Assisted in developing course materials, assignments, and lab demonstrations to enhance conceptual clarity and problem-solving efficiency.",
-        "Provided one-on-one mentorship and conducted review sessions, improving student assessment outcomes by 20%.",
-        "Collaborated with the course instructor to integrate AI, machine learning, and data science examples into the curriculum.",
+        "Mentored 120+ students in Python programming, data structures, and algorithmic problem-solving, strengthening foundations required for machine learning and data
+engineering workflows.",
+        "Guided students in building data processing pipelines using Pandas, NumPy, and API-based data ingestion, connecting coursework to real-world ML data preparation
+tasks.",
+        "Conducted code reviews and one-on-one debugging sessions, improving project performance and reducing logic and implementation errors in ML-style programming
+assignments",
+        
       ],
       skills: [
         "Python",
@@ -46,10 +55,12 @@ function ExperiencePage() {
       location: "Hyderabad, India",
       period: "Sep 2022 – May 2024",
       description: [
-        "Developed intelligent automation systems integrating machine learning models with IoT-enabled devices to adapt to human behavior and environmental inputs.",
-        "Implemented context-aware models that adjusted lighting, temperature, and energy usage, increasing automation efficiency by 40%.",
-        "Optimized model inference using TensorFlow Lite and deployed models on edge devices with <50ms latency.",
-        "Collaborated with embedded systems teams to ensure system stability across 10+ smart home products.",
+        "Developed intelligent automation systems integrating machine learning models with IoT-enabled devices, enabling adaptive responses to human behavior and
+         environmental conditions.",
+        "Implemented context-aware ML models that dynamically adjusted lighting, temperature, and energy usage, increasing overall automation efficiency by 40%.",
+        "Optimized model inference using TensorFlow Lite and deployed models on edge devices, achieving real-time performance with less than 50ms latency.",
+        "Collaborated with embedded systems and hardware engineering teams to ensure stable ML integration across 10+ smart home products, improving system reliability and
+user experience. ",
       ],
       skills: [
         "TensorFlow Lite",
