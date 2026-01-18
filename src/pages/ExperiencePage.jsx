@@ -48,8 +48,7 @@ function ExperiencePage() {
       location: "Hyderabad, India",
       period: "Sep 2022 – May 2024",
       description: [
-        "Developed intelligent automation systems integrating machine learning models with IoT-enabled devices, enabling adaptive responses to human behavior and"
-         "environmental conditions.",
+        "Developed intelligent automation systems integrating machine learning models with IoT-enabled devices, enabling adaptive responses to human behavior and environmental conditions.",
         "Implemented context-aware ML models that dynamically adjusted lighting, temperature, and energy usage, increasing overall automation efficiency by 40%.",
         "Optimized model inference using TensorFlow Lite and deployed models on edge devices, achieving real-time performance with less than 50ms latency.",
         "Collaborated with embedded systems and hardware engineering teams to ensure stable ML integration across 10+ smart home products, improving system reliability and user experience. ",
