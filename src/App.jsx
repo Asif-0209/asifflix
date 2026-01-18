@@ -115,7 +115,7 @@ const myProjects = [
   title: "AI Resume Analyzer & Job Matching Assistant",
   tech: "GenAI · LangChain · LlamaCloud · Embeddings · Vector Search",
   image:
-    "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/da42d8082a500c505595b28abce42c779d69e10a/36946bf109a859852b967a73ad2f44224788c79d",
+    "https://file.aiquickdraw.com/imgcompressed/img/compressed_96a787c7aab97230e0daa9498f74210d.webp",
   link: "https://github.com/Asif-0209", // replace with repo if public
   steps: [
     "Built a GenAI-powered system to parse resumes and job descriptions into structured candidate profiles using schema-constrained extraction.",
