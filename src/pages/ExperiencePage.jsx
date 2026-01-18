@@ -8,16 +8,12 @@ function ExperiencePage() {
       location: "Arizona, United States",
       period: "Oct 2024 – Dec 2025",
       description: [
-        "Designed and deployed end-to-end machine learning pipelines for campus research datasets using Python, Scikit-learn, and TensorFlow, improving model accuracy by"
-         "up to 30% across multiple prediction tasks.",
-        "Built Retrieval-Augmented Generation (RAG) systems using Hugging Face models and FAISS vector databases to enable semantic search and document-based question"
-         "answering for academic workflows.",
-        "Developed automated data preprocessing and feature engineering pipelines with Pandas, NumPy, and SQL, reducing data preparation time by 40% and improving dataset"
-        "consistency.",
-        " Implemented and containerized FastAPI-based ML inference services using Docker, enabling scalable model deployment across AWS and GCP environments.",
+        "Designed and deployed end-to-end machine learning pipelines for campus research datasets using Python, Scikit-learn, and TensorFlow, improving model accuracy by up to 30% across multiple prediction tasks." , 
+        "Built Retrieval-Augmented Generation (RAG) systems using Hugging Face models and FAISS vector databases to enable semantic search and document-based question answering for academic workflows.",
+        "Developed automated data preprocessing and feature engineering pipelines with Pandas, NumPy, and SQL, reducing data preparation time by 40% and improving dataset consistency.",
+        "Implemented and containerized FastAPI-based ML inference services using Docker, enabling scalable model deployment across AWS and GCP environments.",
         "Integrated LLM-powered analytics and AI-driven dashboards with existing campus systems, supporting data-driven decision-making for 200+ faculty and administrators.",
-        "Collaborated with faculty researchers and IT teams to iterate on model design, evaluation metrics, and deployment strategies, ensuring reproducibility and production"
-         "readiness.",
+        "Collaborated with faculty researchers and IT teams to iterate on model design, evaluation metrics, and deployment strategies, ensuring reproducibility and production readiness.",
       ],
       skills: [
         "PyTorch",
@@ -33,12 +29,9 @@ function ExperiencePage() {
       location: "Arizona, United States",
       period: "Aug 2024 – Dec 2025",
       description: [
-        "Mentored 120+ students in Python programming, data structures, and algorithmic problem-solving, strengthening foundations required for machine learning and data"
-"engineering workflows.",
-        "Guided students in building data processing pipelines using Pandas, NumPy, and API-based data ingestion, connecting coursework to real-world ML data preparation"
-"tasks.",
-        "Conducted code reviews and one-on-one debugging sessions, improving project performance and reducing logic and implementation errors in ML-style programming"
-"assignments",
+        "Mentored 120+ students in Python programming, data structures, and algorithmic problem-solving, strengthening foundations required for machine learning and data engineering workflows.",
+        "Guided students in building data processing pipelines using Pandas, NumPy, and API-based data ingestion, connecting coursework to real-world ML data preparation tasks.",
+        "Conducted code reviews and one-on-one debugging sessions, improving project performance and reducing logic and implementation errors in ML-style programming assignments",
         
       ],
       skills: [
@@ -59,8 +52,7 @@ function ExperiencePage() {
          "environmental conditions.",
         "Implemented context-aware ML models that dynamically adjusted lighting, temperature, and energy usage, increasing overall automation efficiency by 40%.",
         "Optimized model inference using TensorFlow Lite and deployed models on edge devices, achieving real-time performance with less than 50ms latency.",
-        "Collaborated with embedded systems and hardware engineering teams to ensure stable ML integration across 10+ smart home products, improving system reliability and"
-"user experience. ",
+        "Collaborated with embedded systems and hardware engineering teams to ensure stable ML integration across 10+ smart home products, improving system reliability and user experience. ",
       ],
       skills: [
         "TensorFlow Lite",
