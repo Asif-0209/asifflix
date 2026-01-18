@@ -72,7 +72,7 @@ function AboutPage() {
               <FaGithub />
             </a>
             <a
-              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+              href="https://media.licdn.com/dms/image/v2/D5635AQHB5uAPTiytCA/profile-framedphoto-shrink_800_800/B56Zpg7IyDIYAg-/0/1762562706830?e=1769299200&v=beta&t=g_fFA2xWZ5ckbfOLF0mcSamDqPgkldN8xWIiP_cPA68"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-red-500 transition"
