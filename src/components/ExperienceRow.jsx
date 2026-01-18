@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 const experiences = [
   {
     role: "AI/ML Engineer — Northern Arizona University",
-    date: "Oct 2024 – Present",
+    date: "Oct 2024 – Dec 2025",
     location: "Arizona, United States",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80",
   },
   {
     role: "Teaching Assistant for Advanced Python — Northern Arizona University",
-    date: "Dec 2024 – Present",
+    date: "Aug 2024 – Dec 2025",
     location: "Arizona, United States",
     image:
       "https://www.teachingpersonnel.com/img/Xm96JvBX60y6bwjZtACw4g/MicrosoftTeams-image+(14).png?v=01b539281ec29ce90387374f095478d8",
