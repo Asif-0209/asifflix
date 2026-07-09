@@ -5,141 +5,129 @@ function ExperiencePage() {
     {
       title: "AI/ML Engineer",
       company: "Northern Arizona University",
-      location: "Arizona, United States",
-      period: "Oct 2024 – Dec 2025",
+      location: "Arizona, USA",
+      period: "Jul 2025 — Present",
       description: [
-        "Designed and deployed end-to-end machine learning pipelines for campus research datasets using Python, Scikit-learn, and TensorFlow, improving model accuracy by up to 30% across multiple prediction tasks." , 
-        "Built Retrieval-Augmented Generation (RAG) systems using Hugging Face models and FAISS vector databases to enable semantic search and document-based question answering for academic workflows.",
-        "Developed automated data preprocessing and feature engineering pipelines with Pandas, NumPy, and SQL, reducing data preparation time by 40% and improving dataset consistency.",
-        "Implemented and containerized FastAPI-based ML inference services using Docker, enabling scalable model deployment across AWS and GCP environments.",
-        "Integrated LLM-powered analytics and AI-driven dashboards with existing campus systems, supporting data-driven decision-making for 200+ faculty and administrators.",
-        "Collaborated with faculty researchers and IT teams to iterate on model design, evaluation metrics, and deployment strategies, ensuring reproducibility and production readiness.",
+        "Architected and deployed production LLM applications using LangChain and LangGraph on AWS Bedrock with multi-agent orchestration, tool-use integration, and RAG pipelines — giving researchers across three departments real-time access to insights and reducing manual data-gathering time by 40%.",
+        "Fine-tuned open-source LLMs using LoRA/QLoRA and PEFT on domain-specific datasets, improving task accuracy and reducing inference cost by selecting optimized adapter configurations over full model retraining.",
+        "Built end-to-end ML pipelines in Python covering data ingestion, cleaning, feature engineering, training, validation, and artifact packaging — improving model accuracy by 30% across multiple prediction tasks.",
+        "Implemented containerized FastAPI inference services with Docker deployed on AWS and GCP, with versioned model endpoints, automated health checks, and CI/CD through GitHub Actions.",
+        "Integrated LLM-powered analytics dashboards with enterprise campus systems enabling data-driven reporting for 200+ faculty and administrators, while optimizing prompt strategies and token usage.",
+        "Authored technical documentation, runbooks, and onboarding guides enabling non-technical stakeholders to independently operate LLM-powered tools.",
       ],
-      skills: [
-        "End-to-End Machine Learning Pipelines",
-        "Model Training & Evaluation",
-        "Feature Engineering & Data Preprocessing",
-        "Deployment & Model Serving (FastAPI / Docker)",
-        "Retrieval-Augmented Generation (RAG) Systems",
-        "Cloud-Based ML Infrastructure (AWS / GCP)",
-        "MLOps & CI/CD Automation",
-      ],
+      skills: ["LangChain", "LangGraph", "AWS Bedrock", "RAG", "Multi-Agent Orchestration", "LoRA/QLoRA", "FastAPI", "Docker", "CI/CD"],
     },
     {
-      title: "Teaching Assistant — Advanced Python",
-      company: "Northern Arizona University",
-      location: "Arizona, United States",
-      period: "Aug 2024 – Dec 2025",
-      description: [
-        "Mentored 120+ students in Python programming, data structures, and algorithmic problem-solving, strengthening foundations required for machine learning and data engineering workflows.",
-        "Guided students in building data processing pipelines using Pandas, NumPy, and API-based data ingestion, connecting coursework to real-world ML data preparation tasks.",
-        "Conducted code reviews and one-on-one debugging sessions, improving project performance and reducing logic and implementation errors in ML-style programming assignments",
-        
-      ],
-      skills: [
-        "Python",
-        "Teaching",
-        "Mentorship",
-        "Data Structures & Algorithmic Problem Solving",
-        "Data Processing Pipelines",
-        "Python Automation & Scripting",
-        "API Integration & Data Ingestion",
-        "Applied Machine Learning Preparation",
-      ],
-    },
-    {
-      title: "Smart Automation ML Engineer",
+      title: "Software Engineer — Machine Learning",
       company: "Vincon Reality Pvt. Ltd.",
       location: "Hyderabad, India",
-      period: "Sep 2022 – May 2024",
+      period: "Sep 2022 — May 2024",
       description: [
-        "Developed intelligent automation systems integrating machine learning models with IoT-enabled devices, enabling adaptive responses to human behavior and environmental conditions.",
-        "Implemented context-aware ML models that dynamically adjusted lighting, temperature, and energy usage, increasing overall automation efficiency by 40%.",
-        "Optimized model inference using TensorFlow Lite and deployed models on edge devices, achieving real-time performance with less than 50ms latency.",
-        "Collaborated with embedded systems and hardware engineering teams to ensure stable ML integration across 10+ smart home products, improving system reliability and user experience. ",
+        "Shipped production Python systems integrating ML inference with IoT device control, improving automation efficiency by 40%.",
+        "Optimized inference with quantization and pruning to sub-50ms latency across 10+ products, within 2% of full-precision accuracy.",
+        "Built SQL/Python data pipelines feeding scheduled retraining jobs from high-volume telemetry.",
+        "Introduced CI with automated regression tests cutting defects by 30%; led debugging of hardware-software integration issues across 10+ smart home products.",
       ],
-      skills: [
-        "TensorFlow Lite",
-        "IoT",
-        "Edge AI",
-        "Model Optimization",
-        "Automation Systems",
+      skills: ["TensorFlow Lite", "IoT", "Edge AI", "Model Optimization", "Quantization", "SQL Pipelines", "CI/CD"],
+    },
+  ];
+
+  const research = [
+    {
+      title: "Agent Security Benchmark & Prompt Injection Detector",
+      company: "Northern Arizona University — Research",
+      period: "Feb 2026 — Present",
+      description: [
+        "Built the first benchmark of 12,536 LLM-agent tool-call trajectories with step-level prompt-injection labels spanning 5 agent domains and 6 attack types.",
+        "Automated generation pipeline on NAU Monsoon HPC cluster (Llama-3.3-70B, parallel SLURM jobs) producing benign, attacked, and resisted-attack trajectories plus 1,500 hard negatives.",
+        "Drove label correctness from under 10% to 99.6% across 3 iterations by diagnosing semantic-collapse and positional-labeling failures, validated against 1,200+ manually reviewed samples.",
+        "Architected a dual-head Transformer encoder detecting trajectory-level injections and localizing step-level prompts using self-attention to capture long-range dependencies.",
+        "Designed evaluation around hard negatives to verify the model learns true injection signal rather than surface novelty. Working toward peer-reviewed publication.",
       ],
+      skills: ["PyTorch", "Transformers", "HPC", "SLURM", "Agent Security", "Prompt Injection", "Data Engineering", "LLM Evaluation"],
+    },
+  ];
+
+  const openSource = [
+    {
+      title: "smart-preprocess",
+      subtitle: "pip install smart-preprocess-asif",
+      link: "https://pypi.org/project/smart-preprocess-asif/",
+      description: [
+        "Published open-source Python package to PyPI automating common ML data preprocessing steps — cleaning, type handling, missing value strategies, normalization, and encoding.",
+        "Designed modular, pipeline-ready utilities that integrate into end-to-end ML experiments reducing data preparation time and improving consistency across projects.",
+        "Docs written as agent-consumable Markdown and YAML so coding agents and new users can adopt it quickly without reading source.",
+      ],
+      skills: ["Python", "Pandas", "NumPy", "scikit-learn", "PyPI", "Open Source", "CI/CD"],
     },
   ];
 
   const certifications = [
+    "IEEE InC4 2024 Publication — CNN+LSTM Human Activity Recognition (92% accuracy)",
+    "AWS Certified AI Practitioner",
+    "AWS Certified Machine Learning Engineer — Associate",
     "PyPI Open-Source Package Author",
-    "AWS Certified AI Practitioner" ,
-    "AWS Certified Machine Learning Engineer - Associate",
-    "IEEE InC4 2024 Publication",
-    "Google Cloud Computing Foundations: 12 Badges",
-    "Served as President of the College House for two consecutive years",
-    "Merit certifications in Machine Learning, Data Structures & Algorithms, and Python from Udemy"
-    ,
+    "Google Cloud Computing Foundations — 12 Badges",
+    "M.S. Computer Science, Northern Arizona University (GPA: 3.9/4.0)",
   ];
+
+  const SectionCard = ({ item }) => (
+    <div className="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-red-600/40 transition-colors duration-300">
+      <h2 className="text-xl font-bold text-red-500 mb-1">{item.title}</h2>
+      {item.subtitle && (
+        <a href={item.link} target="_blank" rel="noopener noreferrer"
+          className="text-sm text-red-400 hover:underline mb-1 block">{item.subtitle}</a>
+      )}
+      <p className="text-gray-300 text-sm">{item.company}</p>
+      {item.period && <p className="text-gray-500 text-sm mb-3">{item.period}</p>}
+      <ul className="list-disc list-inside text-gray-400 mb-4 space-y-1 text-sm">
+        {item.description.map((d, i) => <li key={i}>{d}</li>)}
+      </ul>
+      <div className="flex flex-wrap gap-2">
+        {item.skills.map((s, i) => (
+          <span key={i} className="bg-red-600/20 text-red-400 px-3 py-1 rounded-full text-xs">{s}</span>
+        ))}
+      </div>
+    </div>
+  );
 
   return (
     <div className="bg-black min-h-screen text-white pt-24">
-      {/* Header */}
       <header className="p-8 border-b border-gray-700 text-center">
-        <h1 className="text-4xl font-bold text-red-500 mb-2">
-          💼 Professional Experience
-        </h1>
-        <p className="text-gray-400">
-          A journey of AI innovation, teaching, and intelligent automation.
-        </p>
+        <h1 className="text-4xl font-bold text-red-500 mb-2">Experience</h1>
+        <p className="text-gray-400">Production AI systems, applied research, and open-source work.</p>
       </header>
 
-      {/* Experience Grid */}
-      <section className="p-10 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {experiences.map((exp, index) => (
-          <div
-            key={index}
-            className="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-red-600/20"
-          >
-            <h2 className="text-xl font-bold text-red-500 mb-1">
-              {exp.title}
-            </h2>
-            <p className="text-gray-300">{exp.company}</p>
-            <p className="text-gray-400 text-sm mb-1">{exp.location}</p>
-            <p className="text-gray-500 text-sm mb-3">{exp.period}</p>
-
-            <ul className="list-disc list-inside text-gray-400 mb-4 space-y-1">
-              {exp.description.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-
-            <div className="flex flex-wrap gap-2 mt-2">
-              {exp.skills.map((skill, i) => (
-                <span
-                  key={i}
-                  className="bg-red-600/20 text-red-400 px-3 py-1 rounded-full text-sm"
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-        ))}
+      <section className="px-10 pt-10">
+        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Industry</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {experiences.map((exp, i) => <SectionCard key={i} item={exp} />)}
+        </div>
       </section>
 
-      {/* Certifications Section */}
-      <section className="p-10 border-t border-gray-800">
-        <h2 className="text-2xl font-semibold text-red-500 mb-6">
-          🏅 Certifications & Achievements
-        </h2>
-        <ul className="list-disc list-inside text-gray-300 space-y-2">
-          {certifications.map((cert, index) => (
-            <li key={index}>{cert}</li>
-          ))}
+      <section className="px-10 pt-10">
+        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Research</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {research.map((r, i) => <SectionCard key={i} item={r} />)}
+        </div>
+      </section>
+
+      <section className="px-10 pt-10">
+        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Open Source</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {openSource.map((o, i) => <SectionCard key={i} item={o} />)}
+        </div>
+      </section>
+
+      <section className="px-10 pt-10 pb-16 border-t border-gray-800 mt-10">
+        <h2 className="text-xl font-semibold text-gray-300 mb-6">Credentials</h2>
+        <ul className="list-disc list-inside text-gray-300 space-y-2 text-sm">
+          {certifications.map((c, i) => <li key={i}>{c}</li>)}
         </ul>
       </section>
 
-      {/* Footer */}
-      <footer className="text-center py-10 text-gray-400 border-t border-gray-800 mt-10">
-        <p>©Asif P • AI/ML Engineer Portfolio • React × Tailwind × OpenAI</p>
+      <footer className="text-center py-10 text-gray-400 border-t border-gray-800">
+        <p>Asif Pinjari · AI/ML Engineer · React × Tailwind</p>
       </footer>
     </div>
   );
