@@ -6,45 +6,64 @@ function ExperiencePage() {
       title: "AI/ML Engineer",
       company: "Northern Arizona University",
       location: "Arizona, USA",
-      period: "Jul 2025 — Present",
+      period: "Jan 2025 — Present",
       description: [
-        "Architected and deployed production LLM applications using LangChain and LangGraph on AWS Bedrock with multi-agent orchestration, tool-use integration, and RAG pipelines — giving researchers across three departments real-time access to insights and reducing manual data-gathering time by 40%.",
-        "Fine-tuned open-source LLMs using LoRA/QLoRA and PEFT on domain-specific datasets, improving task accuracy and reducing inference cost by selecting optimized adapter configurations over full model retraining.",
-        "Built end-to-end ML pipelines in Python covering data ingestion, cleaning, feature engineering, training, validation, and artifact packaging — improving model accuracy by 30% across multiple prediction tasks.",
-        "Implemented containerized FastAPI inference services with Docker deployed on AWS and GCP, with versioned model endpoints, automated health checks, and CI/CD through GitHub Actions.",
-        "Integrated LLM-powered analytics dashboards with enterprise campus systems enabling data-driven reporting for 200+ faculty and administrators, while optimizing prompt strategies and token usage.",
-        "Authored technical documentation, runbooks, and onboarding guides enabling non-technical stakeholders to independently operate LLM-powered tools.",
+        "Wore multiple hats across a public-university AI team: discovering stakeholder needs, scoping AI sprints with clear outcomes, shipping working solutions, and handing them off with runbooks so non-technical colleagues could own and operate them.",
+        "Built and deployed agents, automations, internal tools, and integrations on Claude API + LangChain + AWS, including RAG pipelines, LLM-powered dashboards, and agentic workflows used by 200+ faculty and administrators across multiple departments.",
+        "Embedded with non-technical stakeholders to translate ambiguous AI requests into shippable solutions; ran enablement sessions that turned faculty and admin colleagues into the AI go-to people on their teams.",
+        "Exercised judgment to catch wrong answers in production AI outputs, pushed back on AI use-cases that would not actually help users, and cut features from demos that were not landing with the audience.",
+        "Built evaluation harnesses measuring retrieval accuracy, response quality, and hallucination rates, turning subjective AI quality into concrete metrics stakeholders trusted.",
+        "Improved model accuracy ~30% and reduced token usage ~40% through iterative prompt engineering, retrieval tuning, and selective model routing.",
       ],
-      skills: ["LangChain", "LangGraph", "AWS Bedrock", "RAG", "Multi-Agent Orchestration", "LoRA/QLoRA", "FastAPI", "Docker", "CI/CD"],
+      skills: ["Claude API", "LangChain", "AWS", "RAG", "Agentic Workflows", "Evaluation Harnesses", "Prompt Engineering", "Stakeholder Enablement"],
     },
     {
-      title: "Software Engineer — Machine Learning",
-      company: "Vincon Reality Pvt. Ltd.",
-      location: "Hyderabad, India",
-      period: "Sep 2022 — May 2024",
-      description: [
-        "Shipped production Python systems integrating ML inference with IoT device control, improving automation efficiency by 40%.",
-        "Optimized inference with quantization and pruning to sub-50ms latency across 10+ products, within 2% of full-precision accuracy.",
-        "Built SQL/Python data pipelines feeding scheduled retraining jobs from high-volume telemetry.",
-        "Introduced CI with automated regression tests cutting defects by 30%; led debugging of hardware-software integration issues across 10+ smart home products.",
-      ],
-      skills: ["TensorFlow Lite", "IoT", "Edge AI", "Model Optimization", "Quantization", "SQL Pipelines", "CI/CD"],
-    },
-  ];
-
-  const research = [
-    {
-      title: "Agent Security Benchmark & Prompt Injection Detector",
-      company: "Northern Arizona University — Research",
+      title: "Research Assistant — AI, Agents & Deep Learning",
+      company: "Northern Arizona University",
+      location: "Arizona, USA",
       period: "Feb 2026 — Present",
       description: [
-        "Built the first benchmark of 12,536 LLM-agent tool-call trajectories with step-level prompt-injection labels spanning 5 agent domains and 6 attack types.",
-        "Automated generation pipeline on NAU Monsoon HPC cluster (Llama-3.3-70B, parallel SLURM jobs) producing benign, attacked, and resisted-attack trajectories plus 1,500 hard negatives.",
-        "Drove label correctness from under 10% to 99.6% across 3 iterations by diagnosing semantic-collapse and positional-labeling failures, validated against 1,200+ manually reviewed samples.",
-        "Architected a dual-head Transformer encoder detecting trajectory-level injections and localizing step-level prompts using self-attention to capture long-range dependencies.",
-        "Designed evaluation around hard negatives to verify the model learns true injection signal rather than surface novelty. Working toward peer-reviewed publication.",
+        "Conducting applied research on observability and anomaly detection in multi-agent AI communication systems, building evaluation harnesses and reproducible experiment pipelines tracking precision, recall, F1-score, and detection latency toward peer-reviewed publication.",
+        "Built custom datasets and data engineering workflows from scratch with no PM tracking, translating ambiguous research goals into concrete experiment plans.",
+        "Preparing peer-reviewed publication on agentic AI observability and self-refinement patterns in production LLM applications.",
       ],
-      skills: ["PyTorch", "Transformers", "HPC", "SLURM", "Agent Security", "Prompt Injection", "Data Engineering", "LLM Evaluation"],
+      skills: ["Agent Observability", "Anomaly Detection", "PyTorch", "Evaluation Harnesses", "Data Engineering", "HPC", "Research"],
+    },
+    {
+      title: "Teaching Assistant — Python & Deep Learning",
+      company: "Northern Arizona University",
+      location: "Arizona, USA",
+      period: "Feb 2026 — Present",
+      description: [
+        "Mentor 100+ graduate students on PyTorch, TensorFlow, and deep learning architectures (CNNs, RNNs, LSTMs, Transformers) through office hours, lab sessions, and code reviews.",
+        "Helped students troubleshoot, investigate, and debug code across PyTorch and TensorFlow projects, diagnosing model training failures, tensor shape mismatches, dataloader bugs, and CUDA/GPU issues in real time.",
+        "Adapt explanations on the fly based on whether content is landing, switching between math-first, code-first, or intuition-first depending on the student.",
+      ],
+      skills: ["PyTorch", "TensorFlow", "Deep Learning", "Mentoring", "Debugging", "Code Reviews"],
+    },
+    {
+      title: "Teaching Assistant — Advanced Python",
+      company: "Northern Arizona University",
+      location: "Arizona, USA",
+      period: "Jan 2025 — Dec 2025",
+      description: [
+        "Supported 80+ graduate students in Advanced Python (OOP, decorators, async, design patterns) through weekly office hours, lab sessions, and detailed feedback on assignments.",
+        "Helped students troubleshoot and debug complex Python bugs: async/await issues, decorator chains, OOP inheritance problems, and import/environment errors, applying fixes alongside them so they learned the debugging process, not just the answer.",
+      ],
+      skills: ["Python", "OOP", "Async", "Design Patterns", "Mentoring", "Debugging"],
+    },
+    {
+      title: "Semester Zero Peer Mentor",
+      company: "Northern Arizona University",
+      location: "Arizona, USA",
+      period: "Jul 2025 — Aug 2025",
+      description: [
+        "Selected as peer mentor for NAU's Semester Zero summer program, embedded with a cohort of middle-school students arriving with zero AI exposure.",
+        "Designed and delivered hands-on workshops introducing campers to Claude, ChatGPT, and modern AI tools, translating abstract AI concepts into age-appropriate, concrete examples.",
+        "Taught responsible and ethical AI use from day one: writing good prompts, verifying outputs, recognizing when AI is the wrong tool, and thinking critically about AI-generated content.",
+        "Read the room constantly, adjusting pace, language, and examples, and watched campers go from scared of AI to confidently exploring AI tools on their own.",
+      ],
+      skills: ["AI Literacy", "Teaching", "Responsible AI", "Communication", "Workshop Design"],
     },
   ];
 
@@ -54,20 +73,20 @@ function ExperiencePage() {
       subtitle: "pip install smart-preprocess-asif",
       link: "https://pypi.org/project/smart-preprocess-asif/",
       description: [
-        "Published open-source Python package to PyPI automating common ML data preprocessing steps — cleaning, type handling, missing value strategies, normalization, and encoding.",
-        "Designed modular, pipeline-ready utilities that integrate into end-to-end ML experiments reducing data preparation time and improving consistency across projects.",
-        "Docs written as agent-consumable Markdown and YAML so coding agents and new users can adopt it quickly without reading source.",
+        "Authored and published Python library on PyPI automating data preprocessing: missing values, encoding, scaling, and outlier handling. Actively downloaded across ML workflows.",
+        "Built and maintained solo with no PM oversight; versioned, CI-driven releases designed so the tool keeps running after handoff.",
       ],
       skills: ["Python", "Pandas", "NumPy", "scikit-learn", "PyPI", "Open Source", "CI/CD"],
     },
   ];
 
   const certifications = [
-    "IEEE InC4 2024 Publication — CNN+LSTM Human Activity Recognition (92% accuracy)",
+    "Anthropic AI Fluency (2026)",
+    "Anthropic Claude 101 (2026)",
     "AWS Certified AI Practitioner",
     "AWS Certified Machine Learning Engineer — Associate",
-    "PyPI Open-Source Package Author",
-    "Google Cloud Computing Foundations — 12 Badges",
+    "Google Cloud Computing Foundations",
+    "IEEE InC4 2024 Publication — CNN+LSTM Human Activity Recognition",
     "M.S. Computer Science, Northern Arizona University (GPA: 3.9/4.0)",
   ];
 
@@ -95,20 +114,13 @@ function ExperiencePage() {
     <div className="bg-black min-h-screen text-white pt-24">
       <header className="p-8 border-b border-gray-700 text-center">
         <h1 className="text-4xl font-bold text-red-500 mb-2">Experience</h1>
-        <p className="text-gray-400">Production AI systems, applied research, and open-source work.</p>
+        <p className="text-gray-400">Production AI systems, applied research, teaching, and open-source work.</p>
       </header>
 
       <section className="px-10 pt-10">
-        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Industry</h2>
+        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Experience</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {experiences.map((exp, i) => <SectionCard key={i} item={exp} />)}
-        </div>
-      </section>
-
-      <section className="px-10 pt-10">
-        <h2 className="text-xl font-semibold text-gray-300 mb-6 border-b border-gray-800 pb-2">Research</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          {research.map((r, i) => <SectionCard key={i} item={r} />)}
         </div>
       </section>
 
