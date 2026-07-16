@@ -1,27 +1,27 @@
 <div align="center">
 
-# 🎬 **AsifFlix**  
+# 🎬 **AsifFlix**
 🚀 _AI-Powered Netflix-Inspired Portfolio Website_
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=000000)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
 ---
 
-> 🧠 _Netflix-inspired portfolio with an AI chatbot powered by OpenAI — built using React, Tailwind, and Node.js._
+> 🧠 _Netflix-inspired portfolio with an AI chatbot powered by Claude — built using React, Tailwind, and Vercel serverless functions._
 
 ---
 
 ## 🌟 **About the Project**
 
-**AsifFlix** is a **cinematic personal portfolio** that blends UI design and artificial intelligence.  
-Built with ⚛️ **React**, 🎨 **Tailwind CSS**, and 🤖 **OpenAI API**, it showcases my academic and professional journey in an immersive Netflix-style interface.
+**AsifFlix** is a **cinematic personal portfolio** that blends UI design and artificial intelligence.
+Built with ⚛️ **React**, 🎨 **Tailwind CSS**, and 🤖 the **Claude API (Anthropic)**, it showcases my academic and professional journey in an immersive Netflix-style interface.
 
-> _“A portfolio that looks like Netflix and thinks like ChatGPT.”_
+> _"A portfolio that looks like Netflix and thinks like Claude."_
 
 ---
 
@@ -29,10 +29,10 @@ Built with ⚛️ **React**, 🎨 **Tailwind CSS**, and 🤖 **OpenAI API**, it 
 
 - 🎥 Netflix-style **horizontal project gallery**
 - 💼 Dedicated **Experience, Skills & Education pages**
-- 🧠 Built-in **AI Chatbot** to answer questions about my work
+- 🧠 Built-in **AI assistant powered by Claude** that knows my full professional profile and answers recruiter questions
 - 📱 100% **Responsive design** (mobile, tablet, desktop)
-- ☁️ **Deployed on Vercel**
-- 🔒 Uses secure `.env` file for API key management
+- ☁️ **Deployed on Vercel** with serverless API routes
+- 🔒 Secure API key management via Vercel environment variables
 
 ---
 
@@ -41,10 +41,10 @@ Built with ⚛️ **React**, 🎨 **Tailwind CSS**, and 🤖 **OpenAI API**, it 
 | Category | Technologies |
 |-----------|--------------|
 | **Frontend** | React, Tailwind CSS, Framer Motion |
-| **Backend** | Node.js, Express, OpenAI API |
+| **AI Backend** | Vercel Serverless Functions, Claude API (Anthropic) |
 | **Deployment** | Vercel |
 | **Version Control** | Git & GitHub |
-| **Tools** | VS Code, npm, Git CLI |
+| **Tools** | VS Code, Claude Code, npm, Git CLI |
 
 ---
 
@@ -57,11 +57,11 @@ Built with ⚛️ **React**, 🎨 **Tailwind CSS**, and 🤖 **OpenAI API**, it 
 ## 💡 **AI Assistant**
 
 Ask my chatbot questions like:
-> “What are your AI projects?”  
-> “Tell me about your experience at NAU.”  
-> “What tech stack do you use?”
+> "Does Asif know LangGraph?"
+> "Tell me about his experience at NAU."
+> "What are his agentic AI projects?"
 
-The chatbot runs on a **Node.js + OpenAI backend**, using GPT-4o-mini for intelligent replies.
+The assistant runs on a **Vercel serverless function calling the Claude API (Claude Haiku)**, with my full professional profile embedded as context — so it answers accurately about my skills, experience, projects, and research.
 
 ---
 
@@ -76,8 +76,7 @@ asifflix/
 │   │   ├── ProjectRow.jsx      # Horizontal project slider
 │   │   ├── ExperienceRow.jsx   # Experience section on home
 │   │   ├── Skills.jsx          # Technical skills section
-│   │   ├── AIBot.jsx           # Floating AI chatbot component
-│   │   └── Footer.jsx          # Footer section
+│   │   └── AIBot.jsx           # Floating Claude-powered chatbot
 │   ├── pages/
 │   │   ├── ProjectsPage.jsx    # Full projects showcase
 │   │   ├── ExperiencePage.jsx  # Full experience details
@@ -85,34 +84,34 @@ asifflix/
 │   │   └── AboutPage.jsx       # About me with profile and contacts
 │   ├── App.jsx                 # Main app router
 │   └── index.css               # Tailwind setup
-├── server/
-│   └── server.js               # Node backend for OpenAI API
+├── api/
+│   └── chat.js                 # Vercel serverless function → Claude API
 ├── public/                     # Assets (images, icons, etc.)
-├── .env                        # OpenAI API Key (not committed)
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
 └── README.md
-
+```
 
 ---
 
 ## 🧠 **Learning Highlights**
 
-- Implemented modular React components for scalability  
-- Integrated OpenAI API with secure backend proxy  
-- Mastered responsive layouts with Tailwind grid utilities  
+- Implemented modular React components for scalability
+- Integrated the Claude API through a secure serverless backend proxy
+- Embedded a structured professional knowledge base into the assistant's system prompt
+- Mastered responsive layouts with Tailwind grid utilities
 - Deployed production-ready app on **Vercel**
 
 ---
 
 ## 👨‍💻 **Author**
 
-**Asif P**  
-📍 Arizona, United States  
-💼 AI/ML Engineer | Graduate Student at Northern Arizona University  
+**Asif Pinjari**
+📍 Arizona, United States
+💼 AI/ML Engineer | Northern Arizona University
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Asif%20P-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/asif-pinjarip)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Asif%20Pinjari-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/asifp0209)
 [![GitHub](https://img.shields.io/badge/GitHub-Asif--0209-black?style=for-the-badge&logo=github)](https://github.com/Asif-0209)
 [![Email](https://img.shields.io/badge/Email-asifp0203%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:asifp0203@gmail.com)
 
@@ -124,5 +123,4 @@ This project is licensed under the **MIT License** — feel free to use or modif
 
 ---
 
-> ©2025 **Asif P** — Designed using React, TailwindCSS & OpenAI.
-
+> ©2026 **Asif Pinjari** — Designed using React, TailwindCSS & Claude.
