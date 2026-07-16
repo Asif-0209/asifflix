@@ -75,7 +75,7 @@ const myProjects = [
     title: "smart-preprocess — Open-Source PyPI Package",
     tech: "Python · Pandas · NumPy · scikit-learn · PyPI",
     category: "Open Source",
-    image: "https://media.licdn.com/dms/image/v2/D5622AQGeRnRFffhY4Q/feedshare-shrink_2048_1536/B56Zpv8pT1H8Aw-/0/1762814761228?e=1770249600&v=beta&t=i3uP7fFTkOi4Y2rMDeS9q3w91pqVk6Ecx8yribmyshk",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
     link: "https://pypi.org/project/smart-preprocess-asif/",
     steps: [
       "Authored and published Python library on PyPI automating data preprocessing: missing values, encoding, scaling, and outlier handling. Actively downloaded across ML workflows.",
