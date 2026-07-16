@@ -3,72 +3,57 @@ import React from "react";
 function Skills() {
   const skills = [
     {
-      category: "Programming & Databases",
+      category: "Build with Claude",
       items: [
-        "Python (Advanced), C",
-        "SQL / MySQL, MongoDB",
-        "Data modeling, query optimization, schema design",
+        "Claude API, Anthropic SDK, Claude Code",
+        "MCP (Model Context Protocol), Tool Use, Structured Outputs",
+        "Prompt Engineering, Agentic Workflows",
       ],
     },
     {
-      category: "AI & Machine Learning",
+      category: "Agentic AI & LLMs",
       items: [
-        "TensorFlow, PyTorch, Scikit-learn, XGBoost",
-        "Deep Learning: CNNs, LSTMs, Transformers",
-        "Model training, evaluation, hyperparameter tuning, model optimization",
+        "LangChain, LangGraph, Multi-Agent Systems, Agent Orchestration",
+        "Self-Refining Agents, ReAct Pattern, Agent Observability",
+        "RAG Pipelines, FAISS, Pinecone, Hugging Face, OpenAI API, Amazon Bedrock",
+        "LLM Evaluation, LLM-as-Judge, RAGAS, LangSmith",
       ],
     },
     {
-      category: "LLMs, GenAI & RAG",
+      category: "Languages & Frameworks",
       items: [
-        "Hugging Face, OpenAI / Bedrock-style APIs",
-        "RAG pipelines, embeddings, vector databases (FAISS)",
-        "Prompt engineering, LLM fine-tuning, schema-constrained extraction",
-        "Cost-optimized inference, context management",
+        "Python (Advanced, OOP), SQL, JavaScript, Bash",
+        "FastAPI, Flask, Pydantic, JSON Schema, REST APIs",
       ],
     },
     {
-      category: "Data Science & Analytics",
+      category: "ML & Deep Learning",
       items: [
-        "Pandas, NumPy, SciPy",
-        "Visualization: Matplotlib, Seaborn",
-        "Statistical modeling, exploratory data analysis (EDA)",
+        "PyTorch, TensorFlow, Scikit-learn, XGBoost",
+        "CNNs, LSTMs, Transformers, NLP",
+        "Fine-Tuning (LoRA), Model Optimization, Hyperparameter Tuning",
       ],
     },
     {
-      category: "Cloud, MLOps & Deployment",
+      category: "Cloud & Deployment",
       items: [
-        "AWS, Google Cloud Platform (GCP)",
-        "Docker, Kubernetes, CI/CD pipelines",
-        "FastAPI, REST API development",
-        "Model deployment, monitoring, scalable inference",
+        "AWS (Lambda, S3, EC2, API Gateway, Bedrock, SageMaker, EKS), GCP",
+        "Docker, Kubernetes, Serverless, Infrastructure-as-Code",
+        "CI/CD, GitHub Actions",
       ],
     },
     {
-      category: "Big Data & Distributed Systems",
+      category: "Data & Eval",
       items: [
-        "Apache Spark, Hadoop",
-        "Distributed data processing pipelines",
-        "Feature engineering at scale",
+        "Pandas, NumPy, PySpark, PostgreSQL, MongoDB",
+        "ETL Pipelines, Evaluation Harnesses",
       ],
     },
     {
-      category: "Developer & Productivity Tools",
+      category: "Software Engineering",
       items: [
-        "Git, Jupyter Notebook, VS Code",
-        "CLI tools, debugging, reproducible workflows",
-      ],
-    },
-    {
-      category: "Soft Skills",
-      items: [
-        "Leadership",
-        "critical thinking",
-        "strong communication",
-        "problem-solving",
-        "adaptability",
-        "collaboration",
-        "Team Work",
+        "OOP, Unit Testing, PyTest, Code Reviews",
+        "Git, GitHub, Branching Workflows, Documentation, Security Best Practices",
       ],
     },
   ];
