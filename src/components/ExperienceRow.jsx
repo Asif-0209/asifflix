@@ -5,24 +5,38 @@ import { Link } from "react-router-dom";
 const experiences = [
   {
     role: "AI/ML Engineer — Northern Arizona University",
-    date: "Oct 2024 – Dec 2025",
+    date: "Jan 2025 – Present",
     location: "Arizona, United States",
     image:
       "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    role: "Teaching Assistant for Advanced Python — Northern Arizona University",
-    date: "Aug 2024 – Dec 2025",
+    role: "Research Assistant, AI Agents & Deep Learning — Northern Arizona University",
+    date: "Feb 2026 – Present",
+    location: "Arizona, United States",
+    image:
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    role: "Teaching Assistant, Python & Deep Learning — Northern Arizona University",
+    date: "Feb 2026 – Present",
     location: "Arizona, United States",
     image:
       "https://www.teachingpersonnel.com/img/Xm96JvBX60y6bwjZtACw4g/MicrosoftTeams-image+(14).png?v=01b539281ec29ce90387374f095478d8",
   },
   {
-    role: "Smart Automation ML Engineer — Vincon Reality Pvt. Ltd.",
-    date: "Sep 2022 – May 2024",
-    location: "Hyderabad, India",
+    role: "Teaching Assistant, Advanced Python — Northern Arizona University",
+    date: "Jan 2025 – Dec 2025",
+    location: "Arizona, United States",
     image:
-      "https://electronicsmaker.com/wp-content/uploads/2019/08/article.png",
+      "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1400&q=80",
+  },
+  {
+    role: "Semester Zero Peer Mentor — Northern Arizona University",
+    date: "Jul 2025 – Aug 2025",
+    location: "Arizona, United States",
+    image:
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80",
   },
 ];
 
